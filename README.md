@@ -1,18 +1,26 @@
-## Getting Started
+## Getting Started with the JavaFX Hello World Application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to this simple JavaFX application showcasing a "Hello World!" button! This README provides instructions on how to build and run the application.
 
-## Folder Structure
+## Prerequisites:
 
-The workspace contains two folders by default, where:
+Java 11+ installed on your system. You can download it from https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+Building and Running the Application:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Open a terminal window and navigate to the directory where you cloned the repository.
+Build the application:
+javac src/hellofx/*.java
+Run the application:
+java -cp bin hellofx.Main
+This will launch the JavaFX application with a "Hello World!" button in the center. Clicking the button prints "Hello World!" to the console.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Structure:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+The repository holds the following key folders:
 
-## Dependency Management
+src: Contains the source code of the JavaFX application, including the hellofx package.
+bin: Stores the compiled bytecode of the application.
+README.md: This document you're reading!
+Troubleshooting:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+If you encounter any issues during the build or execution, please check the console for any error messages. Additionally, ensure you have the required dependencies installed.
